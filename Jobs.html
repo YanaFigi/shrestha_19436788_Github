@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jobs</title>
+	<link rel="stylesheet" type="text/css" href="Jobs.css">
+	<script type="text/javascript" src="Jobs.js"></script>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<div class="FigiNews"><a target="_blank" href="Review.html"><img src="pictures/Nezha.png" alt="FigiNews"></a><h4>Figi News</h4></div><!--h4 used h4 for the title to have a different aesthetic than other -->
+	<div class="hire"><h1>Hiring On The Following</h1></div>
+</head>
+<body>
+	<div class="menu">
+		<div class="dropbox">
+  			<ul style="width:auto; height:auto;">
+    			<div class="dropdown"><a style="width:50%; height:auto" class="dropbutton,menu"><!--div used instead of li due to the code not working with li -->
+				<img src="pictures/menu.png" alt="menu" style="width:50%; height:auto;">
+    			</a>
+    				<li class="dropdown1">
+						<a href="index.html">Landing</a>
+						<a href="Review.html">Review</a>
+						<a href="Glossary.html">Glossary</a>
+						<a href="Jobs.html">Jobs</a>
+						<a href="Tutorial.html">Tutorial</a>
+					</li>
+				</div>
+			</ul>
+		</div>
+	</div>
+	<div class="grid-container">
+		<div class="Item"><a><img src="pictures/Software-Engineering.jpg" alt="Software Engineering" style="width: 70%; height: 90%;"></a>
+			<div class="first">Software Engineering</div>
+		</div>
+		<div class="Item"><a><img src="pictures/web-design.jpg" alt="Web Designing" style="width: 70%; height: 90%;"></a>
+			<div class="second">Web Designing</div>
+		</div>
+		<div class="Item"><a><img src="pictures/Networking.jpg" alt="Networking" style="width: 70%; height: 100%;"></a>
+			<div class="third">Networking</div>
+		</div>
+		<div class="Item"><a><img src="pictures/UI.jpeg" alt="UI Designing" style="width: 70%; height: 88%;"></a>
+			<div class="forth">UI Designing</div>
+		</div>
+		<div class="Item"><a><img src="pictures/IT.jpg" alt="IT technician" style="width: 70%; height: 100%;"></a>
+			<div class="fifth">IT Technician</div>
+		</div>
+		<div class="Item"><a><img src="pictures/Art.jpg" alt="Art Designer" style="width: 70%; height: 90%;"></a>
+			<div class="sixth">Art Designer</div>
+		</div>
+	</div>
+	<form name="form" action="" onsubmit="return checkForm(this)" method="post">
+		<fieldset style="width: 40%;">
+			<legend>Application Form</legend>
+			First Name:-<br>
+			<input type="text" name="First"><br><br>
+			Middle Name(Not compulsary):-<br>
+			<input type="text" name="Middle"><br><br>
+			Last Name:-<br>
+			<input type="text" name="Last"><br><br>
+			Contact Number:-<br>
+			<input type="Number" name="Contact"><br><br>
+			Email:-<br>
+			<input type="Email" name="Email" style="width: 60%"><br><br>
+			Date of Birth:-<br>
+			<input type="Date" name="Birthday" max="2019-1-1"><br><br>
+			Gender:-<br>
+			<input type="radio" name="Gender" value="Male">Male<br>
+			<input type="radio" name="Gender" value="Female">Female<br>
+			<input type="radio" name="Gender" value="Other">Other<br>
+			Field For Application:-<br>
+			<select name="Applicatin" style="width: 50%">
+				<option value="IT">IT Technician</option>
+				<option value="web-design">Web Designer</option>
+				<option value="UI">UI Designer</option>
+				<option value="Networking">Network Designer</option>
+				<option value="Art">Art Designer</option>
+				<option value="Software">Software Engineering</option>
+			</select><br><br>
+			Expected Salary Per Month €:-<br>
+			<input type="Number" name="Salary"><br><br>
+			Discription About Yourself:-<br>
+			<textarea name="Discription about yourself" rows="7" cols="50"></textarea><br><br>
+			<button class="button"><a href="Thankyou.html" class="btn">Submit</a></button><!-- making double css button for a special trasition animation-->
+		</fieldset>
+	</form>
+	<footer>
+		<div class="socialmedia">
+			<a href="http://www.gmail.com"><img src="pictures/contact.png" alt="Gmail" style="width: 2%"></a><!--(gmail, 2004)-->
+			<a href="http://www.facebook.com"><img src="pictures/Facebook.png" alt="Facebook" style="width: 2%"></a><!-- (facebook,2004) -->
+			<a href="http://www.youtube.com"><img src="pictures/Youtube.png" alt="Youtube" style="width: 2%"></a><!--(youtube, 2005) -->
+		</div>
+	</footer>
+</body>
+</html>

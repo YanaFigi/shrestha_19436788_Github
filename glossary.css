@@ -1,0 +1,77 @@
+body
+{
+	background-image: url(pictures/Background.png);
+	background-repeat: repeat;/*making the background spread due to the image not being big enough*/
+	background-size: auto;
+	background-attachment: fixed;
+	background-color: #FFFBFB;
+}
+.FigiNews
+{
+	text-align: center;
+	text-decoration-color: aliceblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: maroon;
+	padding: 2px;
+}
+.FigiNews img
+{
+    display: block;/*W3school, (1998)*/
+    margin-left: auto;/*W3school, (1998)*/
+    margin-right: auto;/*W3school, (1998)*/
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0.15);
+    transition: 0.5s;
+}
+.FigiNews img:hover
+{
+    transform: scale(1.2,1.2);/*making the image bigger when the mouse hover around it*/
+}
+.dropbutton
+{
+	background-color: #66000000;
+}
+.dropbutton
+{
+	background-color: #1c00ff00;
+    opacity: 0;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown
+{
+	position: absolute;
+    display: inline-block;
+    left: 1%;
+    top: 5%;
+    width: 3%;
+    height: 10%;
+}
+.dropdown1
+{
+	background-color: #fbfbfb;
+    display: none;
+    min-width: 222px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown1 a
+{
+    color: maroon;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover
+{
+    background-color: #f2f2f2;
+    color: grey;
+}
+.dropdown:hover .dropdown1 
+{
+    display: block;
+}
